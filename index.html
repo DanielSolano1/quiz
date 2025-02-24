@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: JS Quiz</title>
+    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+     
+    <div class="container">
+        <h1>CSS Quiz</h1>
+        
+        <!-- <div class="question">
+            <p>1. In the Matrix, what pill does Neo take?</p>
+            <label><input type="radio" name="q1" value="Red"> Red</label>
+            <label><input type="radio" name="q1" value="Blue"> Blue</label>
+            <label><input type="radio" name="q1" value="Green"> Green</label>
+            <div id="feedback1" class="feedback">
+                 <img id="feedback1Img" src="" alt="Feedback Image 1"> -->
+         <!--   </div>
+
+        </div> -->
+
+        <div class="question">
+            <p>1. What's the name of the skyscraper in Die Hard?</p>
+            <div id="q2Choices"></div>
+            <div id="feedback2" class="feedback">
+                <!-- <img src="" alt="" id = "feedback2Img"> -->
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. What's the most famous line from Rocky III?</p>
+            <input type="text" id="q3">
+            <div id="feedback3" class="feedback">
+                <img src="" alt="" id = "feedback3Img">
+            </div>
+            
+        </div>
+
+        <div class="question">
+            <p>3. What is the name of the fictitious African country in Black Panther?</p>
+            <select name="dropdwn" id="selectInput">
+                <option value="" selected disabled>Select an option</option>
+                <option value="Zamunda">Zamunda</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Wakanda">Wakanda</option>
+                <option value="Ghana">Ghana</option>
+            </select>
+            <div id="feedback4" class="feedback">
+                <img src="" alt="" id = "feedback4Img">
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. In Inception, how many dreams within dreams did the team go into?</p>
+            <input type="number" id="q5">
+            <div id="feedback5" class="feedback">
+                <img src="" alt="" id = "feedback5Img">
+            </div>
+        </div>
+
+        <div class="question">
+            <p>5. Jordan Belfort works for which firm in The Wolf of Wall Street?</p>
+            <div id="chckbox"></div>
+            <div id="feedback6" class="feedback">
+                <img src="" alt="" id = "feedback6Img">
+            </div>
+        </div>
+
+        <p id="finalScore"></p>
+        <button class="submit-btn">Submit Quiz</button>
+
+        <p id="quizAttempts">Total times quiz taken: 0</p>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
